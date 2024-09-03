@@ -1,21 +1,25 @@
-let nimi
-nimi = prompt("Sisestage oma nimi: ")
+let nimi;
+nimi = prompt("Sisestage oma nimi: ");
 
-let lubatud
-lubatud = prompt("Sisestage lubatud kirius: ")
+let lubatud;
+lubatud = prompt("Sisestage lubatud kiirus: ");
+lubatud = Number(lubatud);  // Muudame sisendi numbriks
 
-let kiirus
-kiirus = prompt("Sisestage tegelik kiirus: ")
+let kiirus;
+kiirus = prompt("Sisestage tegelik kiirus: ");
+kiirus = Number(kiirus);  // Muudame sisendi numbriks
 
-let trahv
-trahv = kiirus - lubatud
-if trahv = lubatud > kiirus;
-    trahv = 0
+let trahv;
+if (kiirus <= lubatud) {
+    trahv = 0;
+} else {
+    trahv = kiirus - lubatud;
+}
 
-let summa
-summa = trahv * 3
+let summa;
+summa = trahv * 3;
 
-console.log("Sisestage oma nimi: ", nimi)
-console.log("Sisestage lubatud kirius: ", lubatud)
-console.log("isestage tegelik kiirus: ", kiirus)
-console.log("Teie trahv: ", summa)
+console.log("Sisestage oma nimi: ", nimi);
+console.log("Sisestage lubatud kiirus: ", lubatud);
+console.log("Sisestage tegelik kiirus: ", kiirus);
+console.log("Teie trahv: ", summa);
