@@ -1,0 +1,12 @@
+let arv
+arv = prompt("Sisestage täringute arv(1-6): ")
+if (arv >= 7) {
+	console.log("6 on maksimum")
+} else if (arv === "0") {
+	console.log("1-6 saad ainult valida")
+}
+
+if (arv <= 6) {
+for (let i = 0; i < arv; i++) {
+	console.log(Math.floor(Math.random() * 6) + 1)
+}}
