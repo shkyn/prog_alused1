@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    font-family: "signika", sans-serif;
+    scroll-behavior: smooth;
+}
+
+:root{
+    --accent: #e3292a;
+    --orange: #feeadf;
+    --black: #1e1e1e;
+}
+
+body {
+    color:white;
+}
+
+section{
+    min-width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-page{
+    background-image: url("./pizza.png");
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    background: transparent;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    color: white;
+}
+
+.logo{
+    color: var(--accent);
+    font-size: 64px;
+    line-height: 80px;
+    margin-left: 50px;
+    font-weight: 800;
+}
+
+nav div{
+    display: flex;
+    align-items: center;
+    gap: 39px;
+}
+
+na ul{
+    float: none;
+    padding-left: 0px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0px 5px;
+}
+
+nav ul li a{
+    color: var(--black);
+    font-size: 24px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.5s ease-in all;
+}
+
+a:hover{
+    opacity: 70%;
+}
+
+.checkbtn{
+    font-family: 30px;
+    color:var(--black);
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{display: none;}
+
+.btn-1{
+    background-color: var(--black);
+    color: white;
+    border: none;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    text-decoration: none;
+    width: 161px;
+    height: 48px;
+    font-size: 24px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.5s ease-in-out;
+    
+}
