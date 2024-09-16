@@ -84,7 +84,7 @@ showTask();
 document.getElementById("clear-all-btn").addEventListener("click", clearAllTasks);
 
 function clearAllTasks() {
-    if (confirm("Are you sure you want to delete all tasks?")) {
+    if (confirm("Oled sa kindel et tahad kõik ära kustutada?")) {
         listContainer.innerHTML = "";  // kustuta listis olevad asjad
         saveData();  // salvesta localstoragi
     }
