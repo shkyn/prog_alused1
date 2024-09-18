@@ -1,0 +1,50 @@
+*{
+    text-align: center;
+    background: url(https://www.nycwatershed.org/wp-content/uploads/2012/09/bg-prlx-big-sky1.jpg);
+}
+
+
+/* styles.css */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-top: 1px solid #ddd;
+}
+
+footer hr {
+    border: none;
+    height: 1px;
+    background-color: #868585;
+    margin: 0 auto 10px;
+    width: 80%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.s{
+    padding: 20px;
+    background-color: #f1f1f1;
+    border: #868585;
+}
+
+.a{
+    background-color: bisque;
+    border: #979393 2px;
+    border-radius: 2px rgb(119, 23, 23);
+    border-style: double;
+}
+.paev{
+    background-color: rgb(235, 240, 191);
+    color: red;
+    border: #979393 2px;
+    border-radius: 2px rgb(119, 23, 23);
+    border-style: double;
+}
+.ok{
+    text-shadow: 2px black;
+    
+}
